@@ -8,12 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Clipboard landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
   <script src="https://kit.fontawesome.com/7486940972.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -43,23 +37,26 @@
         devices. Our Mac and iOS apps will help you organize everything.
         </p>
       </div>
-      <figure>
-        <img src="images/image-computer.png" alt="Computer" width="312" height="238">
-      </figure>
-      <div class="snippets-info">
-        <div class="search box">
-          <h3>Quick Search</h3>
-          <p>Easily search your snippets by content, category, web address, application, and more.</p>
-        </div>
-        <div class="sync box">
-          <h3>iCloud Sync</h3>
-          <p>Instantly saves and syncs snippets across all your devices.</p>
-        </div>
-        <div class="history box">
-          <h3>Complete History</h3>
-          <p>Retrieve any snippets from the first moment you started using the app.</p>
+      <div class="snippets-content">
+        <figure>
+          <img src="images/image-computer.png" alt="Computer" width="312" height="238">
+        </figure>
+        <div class="snippets-info">
+          <div class="search box">
+            <h3>Quick Search</h3>
+            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div class="sync box">
+            <h3>iCloud Sync</h3>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div class="history box">
+            <h3>Complete History</h3>
+            <p>Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
         </div>
       </div>
+      
     </section>
 
     <section id="access">
@@ -101,19 +98,19 @@
 
     <section id="computer-brands">
       <figure>
-        <img src="images/logo-google.png" alt="Google" width="139">
+        <img src="images/logo-google.png" alt="Google" width="139" class="google">
       </figure>
       <figure>
-        <img src="images/logo-ibm.png" alt="IBM" width="135">
+        <img src="images/logo-ibm.png" alt="IBM" width="135" class="ibm">
       </figure>
       <figure>
-        <img src="images/logo-microsoft.png" alt="Microsoft" width="135">
+        <img src="images/logo-microsoft.png" alt="Microsoft" width="135" class="microsoft">
       </figure>
       <figure>
-        <img src="images/logo-hp.png" alt="Hewlett Packard Enterprise" width="113">
+        <img src="images/logo-hp.png" alt="Hewlett Packard Enterprise" width="113" class="hewlett">
       </figure>
       <figure>
-        <img src="images/logo-vector-graphics.png" alt="Vector Graphics" width="80.19">
+        <img src="images/logo-vector-graphics.png" alt="Vector Graphics" width="80.19" class="vector">
       </figure>
     </section>
 
@@ -134,25 +131,22 @@
       <div class="footer-logo">
         <img src="images/logo.svg" alt="Logo" class="footer-svg">
       </div>
-      <div class="footer-content">
-        <div class="copy-info">
-          <a href="#">FAQs</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Press Kit</a>
-          <a href="#">Install Guide</a>
-        </div>
-        <div class="social-icons">
-          <a href="#"> <i class="fab fa-facebook-square"></i></a>
-          <a href="#" ><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
+      <div class="copy-info">
+        <a href="#" class="faq">FAQs</a>
+        <a href="#" class="contact">Contact Us</a>
+        <a href="#" class="privacy">Privacy Policy</a>
+        <a href="#" class="press">Press Kit</a>
+        <a href="#" class="install">Install Guide</a>
       </div>
-      
-      <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="git@github.com:AnnieCat73/clipboard-landing-page.git">Annie Indreiten</a>. <!--link not working-->
-      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" ><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="git@github.com:AnnieCat73/clipboard-landing-page.git">Annie Indreiten</a>.</p><!--link not working-->
+      </div>
     </footer>
 
   </div>
