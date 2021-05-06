@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: https://anniecat73.github.io/clipboard-landing-page/
 
 ### Built with
 
